@@ -102,6 +102,8 @@
 	--icon-fu--damage: url('../../static/icons/inline/damage.svg');
 	--icon-fu--type: url('../../static/icons/inline/type.svg');
 	--icon-fu--pointer: url('/systems/projectfu/styles/static/ui/pointer.png');
+	
+	--icon-fu-levelup: url('../../static/ui/sheet-icons/leveluppointyfinger.png');
 }
 
 .fu-dex {
@@ -146,6 +148,10 @@
 
 .fu-xp {
 	background-image: var(--icon-fu-xp);
+}
+
+.fu-levelup {
+	background-image: var(--icon-fu-levelup);
 }
 
 .fu-check-accuracy {
@@ -554,9 +560,11 @@
 }
 
 .is-levelup {
-	color: var(--color-levelup) !important;
-	-webkit-text-stroke: 1px var(--color-secondary);
-	margin-left: 1px;
+	display: flex;
+	align-self: stretch;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
 .is-buff.float-text,
