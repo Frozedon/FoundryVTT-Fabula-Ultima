@@ -561,10 +561,16 @@
 
 .is-levelup {
 	display: flex;
-	align-self: stretch;
+	flex: 0 0 auto;
+	height: 22px;
+	width: 44px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+}
+
+.xp-label {
+	flex: 0 0 auto;
 }
 
 .is-buff.float-text,
