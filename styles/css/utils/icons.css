@@ -102,6 +102,13 @@
 	--icon-fu--damage: url('../../static/icons/inline/damage.svg');
 	--icon-fu--type: url('../../static/icons/inline/type.svg');
 	--icon-fu--pointer: url('/systems/projectfu/styles/static/ui/pointer.png');
+
+	--icon-fu--defense: url('../../static/ui/sheet-icons/defense.png');
+	--icon-fu--magic-defense: url('../../static/ui/sheet-icons/magic-defense.png');
+	--icon-fu--initiative: url('../../static/ui/sheet-icons/initiative.png');
+	--icon-fu--level: url('../../static/ui/sheet-icons/level.png');
+	--icon-fu--experience-points: url('../../static/ui/sheet-icons/experience-points.png');
+	--icon-fu--rest: url('../../static/ui/sheet-icons/rest.png');
 }
 
 .fu-dex {
@@ -470,6 +477,30 @@
 
 .fu-action-spell {
 	background-image: var(--icon-fu--action-spell);
+}
+
+.fu-defense {
+	background-image: var(--icon-fu--defense);
+}
+
+.fu-magic-defense {
+	background-image: var(--icon-fu--magic-defense);
+}
+
+.fu-initiative {
+	background-image: var(--icon-fu--initiative);
+}
+
+.fu-level {
+	background-image: var(--icon-fu--level);
+}
+
+.fu-experience-points {
+	background-image: var(--icon-fu--experience-points);
+}
+
+.fu-rest {
+	background-image: var(--icon-fu--rest);
 }
 
 /* Icon display styles */
