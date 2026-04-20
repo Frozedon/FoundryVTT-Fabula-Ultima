@@ -1145,11 +1145,12 @@ FU.allIcon = {
 	vulnerability: 'fas fa-heart-crack',
 	level: 'fas fa-star',
 
+	levelIcon: 'fu-level-icon',
+	levelUpIcon: 'fu-level-up-icon',
+	xpIcon: 'fu-xp-icon',
 	defense: 'fu-defense',
 	magicDefense: 'fu-magic-defense',
 	initiative: 'fu-initiative',
-	levelIcon: 'fu-level',
-	experiencePoints: 'fu-experience-points',
 	rest: 'fu-rest',
 
 	bond: 'fas fa-bookmark',
