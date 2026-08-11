@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you perform an <strong>invocation</strong>, you may spend up to <strong>【SL × 10】</strong>additional Mind Points. For every 10 Mind Points you spend this way, the invocation may target an additional creature you can see.</p>",
+    "description": "<p>When you perform an <strong>invocation</strong>, you may spend up to <strong>【SL × 10】</strong> additional Mind Points. For every 10 Mind Points you spend this way, the invocation may target an additional creature you can see.</p>",
     "isFavored": {
       "value": false
     },
@@ -61,6 +61,11 @@
     "targeting": {
       "rule": "self",
       "max": 0
+    },
+    "effects": {
+      "duration": {
+        "interval": null
+      }
     }
   },
   "effects": [
@@ -176,7 +181,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1742676970366,
-    "modifiedTime": 1770413763149,
+    "modifiedTime": 1791496831018,
     "lastModifiedBy": "mA8SNY2rY4X5tOHa",
     "exportSource": null
   },
