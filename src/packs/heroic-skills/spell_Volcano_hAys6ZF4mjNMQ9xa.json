@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><strong>Required Heroic Skill:</strong> @UUID[Compendium.projectfu.heroic-skills.Item.FpTkfuZ5p4zCQKDP]</p><hr /><p><span>You channel the fury of the planet into a powerful wave of fire and magma. Choose one option:</span></p><ul><li><p><span>You deal 50 <strong>fire</strong> damage to one creature you can see.</span></p></li><li><p><span>You deal 30 <strong>fire</strong> damage to every enemy you can see.</span></p></li></ul><p><span>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</span></p><p><span>Damage dealt by this spell ignores Resistances and Immunities.</span></p>",
+    "description": "<p><strong>Required Heroic Skill:</strong> @UUID[Compendium.projectfu.heroic-skills.Item.FpTkfuZ5p4zCQKDP]</p><hr /><p><span>You channel the fury of the planet into a powerful wave of fire and magma. Choose <strong>one</strong> option:</span></p><ul><li><p><span>You deal 50 <strong>fire</strong> damage to one creature you can see.</span></p></li><li><p><span>You deal 30 <strong>fire</strong> damage to every enemy you can see.</span></p></li></ul><p><span>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</span></p><p><span>Damage dealt by this spell ignores Resistances and Immunities.</span></p>",
     "showTitleCard": {
       "value": false
     },
@@ -117,7 +117,8 @@
       "prompt": false,
       "duration": {
         "event": "",
-        "tracking": ""
+        "tracking": "",
+        "interval": null
       }
     }
   },
@@ -275,7 +276,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1771476719488,
-    "modifiedTime": 1771476719488,
+    "modifiedTime": 1787128861401,
     "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "hAys6ZF4mjNMQ9xa",
